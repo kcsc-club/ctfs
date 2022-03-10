@@ -363,7 +363,7 @@ data = p.recvline()
 
 Sau khi thực thi code thành công, ta chỉ cần nhập chuỗi `/bin/sh` và printf() sẽ thực thi system() với tham số là chuỗi `/bin/sh`.
 
-Full code: [solve.py](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/TBBT/solve.py)
+Full code: [solve.py](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/TBBT/solve.py)  
 ![image](https://user-images.githubusercontent.com/30711980/157255829-d31b4631-7705-441b-a77a-be414d0937b8.png)
 
 `Flag: p_ctf{Sh3ld0N_1s_H4ppY_1H4t_u_4re_h4cK3R_7u9r4J}`
@@ -372,7 +372,7 @@ Full code: [solve.py](https://github.com/nhtri2003gmail/CTFNote/blob/master/writ
 Bạn cũng có thể tải xuống challenge ở đây: [comeback.zip](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/comeback/comeback.zip)
 Zip sẽ chứa 2 file:
 - vuln
-- libvuln.so
+- libvuln.so  
 Tải xuống và giải nén tệp, sau đó sử dụng `patchelf` để xem libc mà file `vuln` sẽ thực thi chung khi chạy:
 ```
 $ patchelf --print-needed vuln
@@ -580,13 +580,13 @@ p.sendafter(b'All the Best :)', payload)
 
 Và ta lấy được cờ.
 
-Full code: [solve.py](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/comeback/solve.py)
-![image](https://user-images.githubusercontent.com/30711980/157141326-3381dc15-1a56-4228-999b-51a7e15b34c7.png)
+Full code: [solve.py](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/comeback/solve.py)  
+![image](https://user-images.githubusercontent.com/30711980/157141326-3381dc15-1a56-4228-999b-51a7e15b34c7.png)  
 
 `Flag: p_ctf{y3s_1t_w4s_a_R0p_4gh2e7c0}`
 
 > ### Database 
-Bạn cũng có thể tải challenge ở đây: [database.zip](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/database/database.zip)
+Bạn cũng có thể tải challenge ở đây: [database.zip](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/database/database.zip)  
 Trước tiên, ta sẽ sử dụng `file` để kiểm tra thông tin cơ bản:
 
 ```
@@ -753,7 +753,7 @@ Full code 1: [solve_1.py](https://github.com/nhtri2003gmail/CTFNote/blob/master/
 Full code 2: [solve_2.py](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/database/solve_2.py)  
 ![image](https://user-images.githubusercontent.com/30711980/157140985-2fc9f001-c323-4fe9-8f76-69c78ba13eed.png)
 
-> `Flag: p_ctf{Ch4Ng3_1T_t0_M4x1Mum}`
+`Flag: p_ctf{Ch4Ng3_1T_t0_M4x1Mum}`
 
 > ### Portal 
 Bạn cũng có thể tải xuống challenge ở đây: [load.zip](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/Portal/load.zip)
@@ -951,7 +951,7 @@ Mình đã thử với `%s` nhưng không thành công nên sử dụng `%p` tha
 
 Vậy ta chỉ cần chạy trên máy chủ và nhận được cờ dưới dạng hex, sau đó khôi phục nó và ta lấy được cờ.
 
-Full code: [solve.py](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/Portal/solve.py)  
+Full code: [solve.py](https://github.com/nhtri2003gmail/CTFNote/blob/master/writeup/2022/Pragyan-CTF-2022/Portal/solve.py)    
 ![image](https://user-images.githubusercontent.com/30711980/157140756-bc8d79f2-708e-40b4-8812-68ba3f30201d.png)
 
 Mình đã viết đoạn mã này để chuyển đổi cờ ở định dạng hex thành văn bản như dưới đây:
@@ -1542,8 +1542,8 @@ def timXor():
         print(i, t)
 timXor()
 ```
-Kết quả là:
-![image](https://user-images.githubusercontent.com/65294114/157012982-f31d8a0a-b8c9-42fc-bfee-acd72922f727.png)
+Kết quả là:  
+![image](https://user-images.githubusercontent.com/65294114/157012982-f31d8a0a-b8c9-42fc-bfee-acd72922f727.png)   
 Vậy từ đây chúng ta đã có thể tìm ra từng byte của key. Rồi lấy key lụm lúa thoai.
 ```python
 
