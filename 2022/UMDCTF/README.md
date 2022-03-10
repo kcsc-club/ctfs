@@ -3,7 +3,7 @@
 | Challenge type                                             | 
 | ------------------------------------------------------------ | 
 | [WEB](#Web) | 
-| [PWNABLE](#Pwnable) | 
+| [PWNABLE](#Pwn) | 
 | [REVERSE](#Reverse) | |
 | [CRYPTOGRAPHY](#Crypto) | 
 | [FORENSIC](#Forensic) | 
