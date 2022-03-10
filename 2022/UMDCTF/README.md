@@ -4,7 +4,6 @@
 | ------------------------------------------------------------ | 
 | [WEB](#Web) | 
 | [PWNABLE](#Pwn) | 
-| [REVERSE](#Reverse) | |
 | [CRYPTOGRAPHY](#Crypto) | 
 | [FORENSIC](#Forensic) | 
 
